@@ -13,6 +13,8 @@
 		98F0DA301D3A927E00308329 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F0DA2E1D3A927E00308329 /* Main.storyboard */; };
 		98F0DA321D3A927E00308329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F0DA311D3A927E00308329 /* Assets.xcassets */; };
 		98F0DA351D3A927E00308329 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F0DA331D3A927E00308329 /* LaunchScreen.storyboard */; };
+		98F0DA401D3A929000308329 /* MyDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F0DA3D1D3A929000308329 /* MyDateView.m */; };
+		98F0DA411D3A929000308329 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F0DA3F1D3A929000308329 /* MyCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		98F0DA311D3A927E00308329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F0DA341D3A927E00308329 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98F0DA361D3A927F00308329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98F0DA3C1D3A929000308329 /* MyDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDateView.h; sourceTree = "<group>"; };
+		98F0DA3D1D3A929000308329 /* MyDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDateView.m; sourceTree = "<group>"; };
+		98F0DA3E1D3A929000308329 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		98F0DA3F1D3A929000308329 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				98F0DA291D3A927E00308329 /* AppDelegate.m */,
 				98F0DA2B1D3A927E00308329 /* ViewController.h */,
 				98F0DA2C1D3A927E00308329 /* ViewController.m */,
+				98F0DA3C1D3A929000308329 /* MyDateView.h */,
+				98F0DA3D1D3A929000308329 /* MyDateView.m */,
+				98F0DA3E1D3A929000308329 /* MyCollectionViewCell.h */,
+				98F0DA3F1D3A929000308329 /* MyCollectionViewCell.m */,
 				98F0DA2E1D3A927E00308329 /* Main.storyboard */,
 				98F0DA311D3A927E00308329 /* Assets.xcassets */,
 				98F0DA331D3A927E00308329 /* LaunchScreen.storyboard */,
@@ -151,7 +161,9 @@
 			files = (
 				98F0DA2D1D3A927E00308329 /* ViewController.m in Sources */,
 				98F0DA2A1D3A927E00308329 /* AppDelegate.m in Sources */,
+				98F0DA401D3A929000308329 /* MyDateView.m in Sources */,
 				98F0DA271D3A927E00308329 /* main.m in Sources */,
+				98F0DA411D3A929000308329 /* MyCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
